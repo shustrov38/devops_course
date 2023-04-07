@@ -1,0 +1,1 @@
+docker run -it -p 5000:5000 version3.9-alpine
