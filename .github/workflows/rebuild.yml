@@ -2,7 +2,7 @@ name: Rebuild after changes
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "master" ]
 
 jobs:
   pylint:
