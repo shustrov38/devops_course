@@ -25,4 +25,4 @@ jobs:
         name: Build Image and Push to DockerHub
         with:
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/my_app:latest
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/devops_course:latest
